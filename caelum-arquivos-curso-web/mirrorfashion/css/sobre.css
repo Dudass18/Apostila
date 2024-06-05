@@ -16,3 +16,14 @@ p {
     word-spacing: 5px;
     text-indent: 30px;
 }
+figure {
+    background-color: #F2EDED;
+    border: 10px groove #ccc;
+    text-align: center;
+}
+figcaption {
+    font-family: italic;
+}
+p{
+    padding: 30px  5px  12px 0;
+}
