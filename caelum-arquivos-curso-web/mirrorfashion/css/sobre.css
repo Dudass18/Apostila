@@ -1,6 +1,9 @@
 body{
     color: #333333;
-    font-family:"Lucida Sans Unicode","Lucida Grande", sans-serif;                   
+    font-family:"Lucida Sans Unicode","Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;           
 }
 h1 {
     font-family: serif;
