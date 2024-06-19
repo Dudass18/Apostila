@@ -30,3 +30,15 @@ figcaption {
 p{
     padding: 30px  5px  12px 0;
 }
+p{
+    color: #ff0000;
+}
+#cabecalho{
+    color: #0db2ff;
+    text-align:center;
+}
+#rodape img {
+    margin-right: 10px;
+    vertical-align:middle;
+    width: 450px;
+}
