@@ -20,7 +20,7 @@ p {
     text-indent: 30px;
 }
 figure {
-    background-color: #F2EDED;
+    background-color: #e1ebdf;
     border: 10px groove #ccc;
     text-align: center;
 }
@@ -29,11 +29,38 @@ figcaption {
 }
 p{
     padding: 30px  5px  12px 0;
+   
 }
 p{
-    color:#00ff62
+     color:#00ff62
 }
 #cabecalho {
     color: rgb(69, 191, 228);
     text-align: center;
 }
+#rodape{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 700px;
+    color: #ff0000;
+    margin: 60px;
+    padding: 110px;
+}
+#centrodedistribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+} 
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 500px;
+}
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+    
+   
+    
+   
