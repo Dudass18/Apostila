@@ -10,14 +10,19 @@
     padding-right: 35px;
     text-align: right;
     width: 140px;
+    margin-top: 20px;
 }
 .menu-opcoes ul{
     font-size: 15px;
 }
 .menu-opcoes a{
-    color: #036;
+    color: rgb(43, 255, 0);
 }
 body{
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
 }
