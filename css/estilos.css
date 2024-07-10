@@ -15,9 +15,6 @@
 .menu-opcoes ul{
     font-size: 15px;
 }
-.menu-opcoes a{
-    color: rgb(43, 255, 0);
-}
 body{
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,3 +32,13 @@ body{
     top: 20px;
     left: 50px;
 }
+header {
+    position: relative;
+}
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sacola {
+    }
