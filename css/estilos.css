@@ -1,8 +1,9 @@
-.container{
-    margin-right: auto;
-    margin-left: auto;
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
-.sacola{
+
+.sacola {
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: top right;
@@ -12,33 +13,52 @@
     width: 140px;
     margin-top: 20px;
 }
-.menu-opcoes ul{
+
+.menu-opcoes ul {
     font-size: 15px;
 }
-body{
+
+body {
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .menu-opcoes ul li {
     display: inline;
     margin-left: 20px;
 }
-.container{
-    margin: 0 auto;
-    width: 400px;
-}
+
 .logotipo {
     position: relative;
     top: 20px;
     left: 50px;
 }
+
 header {
     position: relative;
 }
+
 .menu-opcoes {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 .sacola {
-    }
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.menu-departamentos{
+    clear: left;
+    text-transform: uppercase;
+}
+.ítem-menu {
+    text-decoration: double;
+}
