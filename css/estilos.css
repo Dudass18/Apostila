@@ -60,5 +60,29 @@ header {
     text-transform: uppercase;
 }
 .ítem-menu {
-    text-decoration: double;
+    text-decoration:  none;
+}
+#pai {
+    color:blue;
+}
+h1 {
+    padding-left: 40px;
+}
+#pai {
+    color:blue;
+    padding-left: 0;
+}
+div {
+    border: 2px solid;
+    border-color: red;
+    width: 30px;
+    height:30px;
+}
+img {
+    width:320px;
+    height: 100px;
+}
+img {
+    width: inherit;
+    height: inherit;
 }
