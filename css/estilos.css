@@ -150,13 +150,10 @@ img {
 .mais-vendidos {
     background-color: #dcdcf5;
 }
-input[value] {
-    color: #CC0000;
+.facebook {
+    height: 55px;
+    width: 85px;
 }
-input[type="text"] {
-    border-radius: 4px;
-}
-
 
 
 
