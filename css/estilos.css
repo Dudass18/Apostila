@@ -225,6 +225,34 @@ footer .container {
     padding-right: 5px;
     opacity: 0.4;
 }
+:not(p) + p::first-line {
+    font-variant: small-caps;
+}
+.div {
+    border-radius: 5px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.a {
+    border-radius: 15px;
+    background-color: #ff0000;
+    height: 50px;
+    width: 50px;
+}
+.b {
+    border-radius: 5px 20px 50px;
+    background-color: #7700ff;
+    height: 80px;
+    width: 80px;
+}
+.d {
+    border-radius: 5px 20px 50px 100px;
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+}
+
 
 
 
