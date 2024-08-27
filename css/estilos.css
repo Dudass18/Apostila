@@ -228,31 +228,26 @@ footer .container {
 :not(p) + p::first-line {
     font-variant: small-caps;
 }
-.div {
-    border-radius: 5px;
-    background-color: black;
-    height: 300px;
-    width: 300px;
+p {
+    text-shadow: 10px 10px red;
 }
-.a {
-    border-radius: 15px;
-    background-color: #ff0000;
-    height: 50px;
-    width: 50px;
+p {
+    text-shadow: 10px 10px 5px red;
 }
-.b {
-    border-radius: 5px 20px 50px;
-    background-color: #7700ff;
-    height: 80px;
-    width: 80px;
+p {
+    text-shadow: 10px 10px 5px red, -5px -5px 4px red;
 }
-.d {
-    border-radius: 5px 20px 50px 100px;
-    background-color: aqua;
-    height: 90px;
-    width: 90px;
+p {
+    opacity: 0.3;
+    color: white;
+    color: #ffffff;
+    color: rgb(225, 225, 225);
+    color: rgba(225, 255,225, 0.8);
 }
-
+p {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
 
 
 
