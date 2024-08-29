@@ -219,16 +219,9 @@ p {
   border-top-left-radius: 20px;
   border-top-right-radius: 50px;
 }
-#teste {
-  position: relative;
-  top: 10px;
+.painel li:hover {
+  box-shadow: 0 0 5px #333;
+  transition: 
 }
-#teste:hover {
-  top: 30px;
-}
-#teste:hover {
-  transition: top 2s;
-}
-#teste:hover {
-  transition: top 2s ease;
-}
+
+
