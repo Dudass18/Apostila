@@ -218,6 +218,12 @@ p {
   transition: 0.7s;
   transform: scale(1.2);
 }
-#menu-departamentos {
+/* #menu-departamentos {
   transform: rotate(-10deg);
+} */
+/* #meu-banner {
+   transform:translate(40px, -20px) 
+} */
+#menu-banner {
+  transform: translateX(50px);
 }
