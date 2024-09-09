@@ -262,3 +262,16 @@ p {
 /* #menu-banner {
   transform: translateX(50px);
 } */
+p {
+  color: rgb(255, 255, 255);
+}
+.destaque {
+  color: rgb(255, 255, 255);
+}
+#cabecalho {
+  color: rgb(255, 0, 0);
+}
+
+
+
+
