@@ -271,6 +271,19 @@ p {
 #cabecalho {
   color: rgb(255, 0, 0);
 }
+@media screen {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+@media print {
+  body {
+    background-color: rgb(255, 10, 10);
+    color: rgb(140, 0, 255);
+  }
+}
+
 
 
 
