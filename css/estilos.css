@@ -275,12 +275,23 @@ p {
   body {
     background-color: blue;
     color: white;
+    font-size: 16px;
   }
 }
 @media print {
   body {
     background-color: rgb(255, 10, 10);
     color: rgb(140, 0, 255);
+  }
+}
+/* @media screen {
+  body {
+    font-size: 16px;
+  }
+} */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
   }
 }
 
