@@ -273,8 +273,8 @@ p {
 }
 @media screen {
   body {
-    background-color: blue;
-    color: white;
+    background-color: rgb(53, 53, 82);
+    color: rgb(2, 255, 15);
     font-size: 16px;
   }
 }
