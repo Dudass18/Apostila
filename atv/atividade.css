@@ -1,3 +1,8 @@
 body {
-    background-color: rgb(0, 147, 245);
+    background-color: #3498bd;
+    color: #ffffff;
 }
+.botao {
+    border: 0cap;
+}
+    
