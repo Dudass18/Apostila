@@ -14,12 +14,6 @@
 
 <body>
 
-    <!-- <div class="container">
-        <div class="produto">
-
-        </div>
-    </div> -->
-
     <header class="container">
         <h1>
             <img src="img/logo.png" alt="Logo da Mirror Fashion">
@@ -39,42 +33,140 @@
             </ul>
         </nav>
     </header>
+    <div class="produto-back">
+        <div class="container">
+            <div class="produto">
+                <form>
+                    <fieldset class="cores">
+                        <legend>Escolha a cor:</legend>
 
-    <div class="produto">
-        <h1>Fuzz Cardigan</h1>
-        <p>por apenas 129,90</p>
+                        <input type="radio" name="cor" value="verde" id="verde" checked>
+                        <label for="verde">
+                            <img src="img/produtos/foto1-verde.png" alt="produto na cor verde">
+                        </label>
 
-        <form>
-            <fieldset class="cores">
-                <legend>Escolha a cor:</legend>
+                        <input type="radio" name="cor" value="rosa" id="rosa">
+                        <label for="rosa">
+                            <img src="img/produtos/foto1-rosa.png" alt="Produto na cor rosa">
+                        </label>
 
-                <input type="radio" name="cor" value="verde" id="verde" checked>
-                <label for="verde">
-                    <img src="img/produtos/foto1-verde.png" alt="produto na cor verde">
-                </label>
+                        <input type="radio" name="cor" value="azul" id="azul">
+                        <label for="azul">
+                            <img src="img/produtos/foto1-azul.png" alt="Produto na cor azul">
+                        </label>
 
-                <input type="radio" name="cor" value="rosa" id="rosa">
-                <label for="rosa">
-                    <img src="img/produtos/foto1-rosa.png" alt="Produto na cor rosa">
-                </label>
+                    </fieldset>
 
-                <input type="radio" name="cor" value="azul" id="azul">
-                <label for="azul">
-                    <img src="img/produtos/foto1-azul.png" alt="Produto na cor azul">
-                </label>
+                    <fieldset class="tamanhos">
+                        <legend>Escolha o tamanho:</legend>
+                        <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
 
-            </fieldset>
+                        <button class="comprar">comprar</button>
 
-            <fieldset class="tamanhos">
-                <legend>Escolha o tamanho:</legend>
-                <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
-                
-                <button class="comprar">comprar</button>
+                    </fieldset>
 
-            </fieldset>
+                </form>
+            </div>
 
-        </form>
+            <div class="detalhes">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Características</th>
+                            <th>Detalhes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Modelo</td>
+                            <td>Cardigã</td>
+                        </tr>
+                        <tr>
+                            <td>material</td>
+                            <td>Algodão e poliester</td>
+                        </tr>
+                        <tr>
+                            <td>cores</td>
+                            <td>Azul, Rosa e Verde</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem</td>
+                            <td>Lavar a mão</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Detalhes do produto</h2>
+
+                <p>Esse é o melhor casaco de Cardigã que você ja viu. Excelente
+                    material italiano com estampa desenhada pelos artesãos da
+                    comunidade de Krotor nas ilhas gregas. Compre e já receba
+                    hoje mesmo pela nossa entrega a jato.</p>
+
+                <h1>Fuzz Cardigan</h1>
+                <p>por apenas 129,90</p>
+            </div>
+
+
+
+
+            <table>
+                <caption>Quantidade e preço de camisetas.</caption>
+
+                <colgroup>
+                    <col width="10%">
+                    <col width="40%">
+                    <col width="30%">
+                    <col width="20%">
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <th colspan="2">Quantidade de Camisetas</th>
+                        <th rowspan="2">preço</th>
+                    </tr>
+                    <tr>
+                        <th>Amarela</th>
+                        <th>Vermelha</th>
+                    </tr>
+                </thead>
+
+                <tfloot>
+                    <tr>
+                        <td></td>
+                        <td>Total de camisetas amarelas :35</td>
+                        <td>Total de camisetas Vermelhas: 34</td>
+                        <td>Valor Total: $45.00</td>
+                    </tr>
+                </tfloot>
+
+                <tbody>
+
+                    <tr>
+                        <td>Polo</td>
+                        <td>12</td>
+                        <td>5</td>
+                        <td>$30.00</td>
+                    </tr>
+
+                    <tr>
+
+                        <td>Regata</td>
+                        <td>23</td>
+                        <td>29</td>
+                        <td>$15.00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
+        </div>
     </div>
+    </div>
+
 
     <footer>
         <div class="container">
@@ -106,7 +198,7 @@
 
         <form> -->
 
-            <!-- <fieldset>
+    <!-- <fieldset>
                 <legend>Escolha a cor</legend>
 
                 <input type="radio" name="cor" id="verde">
@@ -128,7 +220,7 @@
         </form> -->
 
 
-        <!-- <fieldset>
+    <!-- <fieldset>
 
             <legend>Escolha a cor</legend>
 
@@ -149,8 +241,8 @@
 
         </fieldset> -->
 
-        <button class="comprar">comprar</button>
-    </form>
+
+
 
 </body>
 

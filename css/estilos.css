@@ -262,9 +262,7 @@ footer .container {
 /* #menu-banner {
   transform: translateX(50px);
 } */
-p {
-  color: rgb(255, 255, 255);
-}
+
 .destaque {
   color: rgb(255, 255, 255);
 }
@@ -273,8 +271,6 @@ p {
 }
 @media screen {
   body {
-    background-color: rgb(53, 53, 82);
-    color: rgb(2, 255, 15);
     font-size: 16px;
   }
 }
@@ -289,6 +285,47 @@ p {
     font-size: 16px;
   }
 } */
+.detalhes {
+  padding: 2em 0;
+}
+.detalhes h2 {
+  font-size: 1.5em;
+  line-height: 2;
+}
+.detalhes p {
+  margin: 1em 0;
+  font-size: 1em;
+  line-height: 1.5;
+  max-width: 36em;
+}
+@media (min-width: 500px) {
+  .detalhes {
+    font: 1.2em;
+  }
+}
+table {
+  border-spacing: 0,2em;
+  border-collapse: separate;
+}
+thead {
+  background-color: #999;
+}
+thead th {
+  font-weight: bold;
+  padding: 0,3em 1em;
+  text-align: center;
+}
+td {
+  padding: 0,3;
+}
+tr:nth-child(2n)
+ {
+   background-color: #ccc;
+ }
+ td:first-child {
+   font-style: italic;
+ }
+ 
 
 
 

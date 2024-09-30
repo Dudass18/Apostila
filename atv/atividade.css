@@ -1,8 +1,7 @@
-body {
+button {
+    border-radius: 20px;
     background-color: #3498bd;
     color: #ffffff;
-}
-.botao {
-    border: 0cap;
+    padding: 10px;
 }
     
