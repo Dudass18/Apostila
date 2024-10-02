@@ -318,13 +318,23 @@ thead th {
 td {
   padding: 0,3;
 }
-tr:nth-child(2n)
- {
-   background-color: #ccc;
- }
- td:first-child {
-   font-style: italic;
- }
+tr:nth-child(2n) {
+    background-color: #ccc;
+  }
+  td:first-child {
+    font-style: italic;
+  }
+.produto-back {
+  background-color: #f2f2f2;
+  margin-top: 1em;
+  border-top: 2px solid #ccc;
+}
+
+.cores label img {
+  border: 2px solid #ccc;
+}
+
+
  
 
 
