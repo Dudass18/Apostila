@@ -1,57 +1,104 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widtth">
+    <title>checkout Mirror Fashion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
 
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-widtth">
-      <title>checkout Mirror Fashion</title>
-      <link rel="stylesheet" href="css/bootstrap.css">
-
-    </head>
-
-
-    <body>
-       
-       <div class="jumbotron jumbotron-fluid">
-        <div class="container">  
-               <!-- <h1 class="display-4">Ótima escolha!</h1> -->
-        <!-- <p class="lead">Obrigada por comprar na Mirror Fashion!
-        Preencha seus dados para efetuar a compra.</p> -->
-        
-       <h1>Ótima escolha!</h1>
-       <p>Obrigada por comprar na Mirror Fashion!
-        Preencha seus dados para efetivar a compra.</p>
-
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <!-- ... card aqui ... -->
 
-        </div><!-- fim .container da pagina -->
+            <h1>Ótima escolha!</h1>
+            <p>Obrigada por comprar na Mirror Fashion!
+                Preencha seus dados para efetivar a compra.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- ... card aqui ... -->
+
+        <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <div class="form-group">
+                <label for="nome">nome completo</label>
+                <input type="text" class="form-control" id="nome" name="nome">
+            </div>
+
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="CPF"></label>
+                <input type="text" class="form-control" id="cpf" name="cpf">
+            </div>
+
+            <div class="form-group custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="newsletter"
+                               value="sim" chacked>
+                <label class="custom-control-label" for="newsletter"></label>
+                Quero receber newsletter da Mirror Fashion
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Cartão de crédito</legend>
+
+            <div class="form-group">
+                <label for="numero-cartao">Número - CVV</label>
+                <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+            </div>
+
+            <div class="form-group">
+                <label for="bandeira-cartao">Banderia</label>
+                <select class="custom-select" id="bandeira">
+                    <option disabled selected>Selecione uma opção...</option>
+                    <option value="master">MasterCard</option>
+                    <option value="visa">VISA</option>
+                    <option value="amex">American Express</option>  
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="validade-cartao">Validade</label>
+                <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+            </div>
+        </fieldset>
+
+        </form>
+
         <div class="card mb-3">
-           <div class="card-header">
-        Sua compra
-        </div><!-- fim .card-header -->
-        <div class="card-body">
+            <div class="card-header">
+                Sua compra
+            </div><!-- fim .card-header -->
+            <div class="card-body">
+                <img src="img/produtos/foto1-verde.png" alt="Fuzz Cardigan"
+                          class="img-thumbnail mb-3">
+                <!-- ... aqui vai o <dl> que já temos ... -->
+                <dl>
+                    <dt>produto</dt>
+                    <dd>Fuzz Cardigan</dd>
 
-             <!-- ... aqui vai o <dl> que já temos ... -->
+                    <dt>Cor</dt>
+                    <dd>Verde</dd>
 
-        </div><!-- fim .card-body -->
+                    <dt>tamanho</dt>
+                    <dd>40</dd>
+
+                    <dt>Preço</dt>
+                    <dd>R$ 129,90</dd>
+                </dl>
+            </div><!-- fim .card-body -->
         </div><!-- fim .card -->
+    </div><!-- fim .container da pagina -->
 
-        <dl>
-            <dt>produto</dt>
-            <dd>Fuzz Cardigan</dd>
-
-            <dt>Cor</dt>
-            <dd>Verde</dd>
-
-            <dt>tamanho</dt>
-            <dd>40</dd>
-
-            <dt>Preço</dt>
-            <dd>R$ 129,90</dd>
-        </dl>
-
-    </body>
-
-
+</body>
 </html>
