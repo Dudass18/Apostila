@@ -11,7 +11,13 @@ function mostraTamanho(){
 inputTamanho.oninput = mostraTamanho
 
 var empresa = "Caelum";
+empresa
 console.log(empresa.length)
 
 
-empresa.replace("lum","tano"); // retorna Caetano
+console.log(
+
+    empresa.replace("Cae","Tano")
+    )
+
+console.log(empresa)
