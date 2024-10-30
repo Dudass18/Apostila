@@ -42,4 +42,4 @@ var milNumber = 1000;
 var milString =  milNumber.toFixed(2);
 console.log(milString);
 
-var s1 = 
+/* var s1 =  */
