@@ -6,8 +6,8 @@ $input_quantidade.oninput = function() {
     preco = preco.replace("R$ ", "");
     preco = preco.replace(",", ".");
     preco = parseFloat(preco);
-
-    var quantidade = $input_quantidade.Value;
+    
+    var quantidade = $input_quantidade.value;
     var total = quantidade * preco;
     total = "R$ " + total.toFixed(2)
     total = total.replace(".", ",");

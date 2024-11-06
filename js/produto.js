@@ -60,6 +60,7 @@ console.log(nome + (num1 + num2));
 console.log(nome + num1 * num2);
 
 
+
 console.log(10-"curso");
 
 var resultado = 10-"curso"; // retorna NaN
@@ -69,7 +70,22 @@ NaN == NaN; // true
 var resultado = 10-"curso";
 isNaN(resultado); // true
 
+
+
 var palavras = ["Caelum", "Ensino"];
-palavras.push("Inovação") // adiciona a string "Inovação" por último no array
+palavras[9] = "Inovação"; // adiciona a string "Inovação" por último no array
 
 var variosTipos = ["Caelum", 10, [1,2]];
+console.log(variosTipos[1]) // imprime o numero 10
+
+
+
+/* for ( variável de controle;condição;pós execusão) {
+  // código a ser repetido
+} */
+
+var palavras = ["Caelum", "Ensino"];
+
+for (var i = 0; i < palavras.length; i++) {
+    alert(palavras[i]);
+}
