@@ -68,3 +68,8 @@ NaN == NaN; // true
 
 var resultado = 10-"curso";
 isNaN(resultado); // true
+
+var palavras = ["Caelum", "Ensino"];
+palavras.push("Inovação") // adiciona a string "Inovação" por último no array
+
+var variosTipos = ["Caelum", 10, [1,2]];
