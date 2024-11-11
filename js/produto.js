@@ -28,7 +28,7 @@ console.log(empresa)
 
 
 
-
+/* 
 var textoInteiro = "10";
 var inteiro = parseInt(textoInteiro);
 
@@ -82,10 +82,23 @@ console.log(variosTipos[1]) // imprime o numero 10
 
 /* for ( variável de controle;condição;pós execusão) {
   // código a ser repetido
-} */
+} 
 
 var palavras = ["Caelum", "Ensino"];
 
 for (var i = 0; i < palavras.length; i++) {
     alert(palavras[i]);
+} */
+
+
+/* var contador = 1;
+
+while (contador <= 10) {
+alert (contador + "Mississipi...");
+contador++;
 }
+
+alert ("valor do contador: " + contador); */
+
+// executa a minhaFuncao daqui um segundo
+setTimeout(minhaFuncao,1000);
