@@ -98,7 +98,16 @@ alert (contador + "Mississipi...");
 contador++;
 }
 
+
 alert ("valor do contador: " + contador); */
 
+function minhaFuncao(){
+    alert("minha funcao")
+}
+
 // executa a minhaFuncao daqui um segundo
-setTimeout(minhaFuncao,1000);
+//setTimeout(minhaFuncao,1000);
+
+// //executa a minhaFuncao de um em um segundo
+setInterval(minhaFuncao, 1000); 
+
