@@ -108,6 +108,11 @@ function minhaFuncao(){
 // executa a minhaFuncao daqui um segundo
 //setTimeout(minhaFuncao,1000);
 
-// //executa a minhaFuncao de um em um segundo
-setInterval(minhaFuncao, 1000); 
+/* // //executa a minhaFuncao de um em um segundo
+setInterval(minhaFuncao, 1000); */
 
+// agenda uma execução qualquer
+var time = setInterval(minhaFuncao, 5000);
+
+// cancela execução
+clearInterval(time);
