@@ -6,4 +6,23 @@ function trocaBanner() {
     document.querySelector('.banner-destaque img').src = banners[bannerAtual];
 }
 
-setInterval(trocaBanner, 4000);
+/* setInterval(trocaBanner, 4000); */
+
+var timer = setInterval(trocaBanner, 4000);
+var controle = document.querySelector('.pause');
+
+controle.onclick = function() {
+    if (controle.className == 'pause') {
+        clearInterval(timer);
+        controle.className = 'play';
+    } else {
+        timer = setInterval(trocaBanner, 4000);
+        controle.className = 'pause';
+    }
+
+    return false;
+};
+
+document.querySelector('#destaque').attachEvent('onclick', function() {
+    // tratamento do evento
+})
