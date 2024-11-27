@@ -26,3 +26,4 @@ controle.onclick = function() {
 document.querySelector('#destaque').attachEvent('onclick', function() {
     // tratamento do evento
 })
+
