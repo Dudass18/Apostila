@@ -10,7 +10,7 @@ body {
     stroke-linejoin: round;
 }
 
-.button .circle {
+.button .circle{
     width: 76px;
     height: 76px;
     transform:rotate(-90deg) ;
