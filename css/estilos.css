@@ -1,8 +1,8 @@
-body {
+/* body {
   color: #333333;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+} */
 
 .container {
   margin: 0 auto;
@@ -375,4 +375,66 @@ tr:nth-child(2n) {
 
 .painel-aberto li:nth-child(n+7) {
   display:inline-block;
+}
+
+
+
+/* body {
+  font-family: 'PT Sans' , sans-serif;
+} */
+
+/* .painel h2 {
+  font-family: 'Bad Script', sans-serif ;
+} */
+
+
+MAIS TRABALHOSO, MAS MAIS BONITO
+
+.painel button {
+  float: right;
+  margin-right: 300px;
+  padding: 10px;
+
+  background-color: #d11b1b;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.5);
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  text-decoration: none;
+  text-shadow: 1px 0 1px rgb(0, 0, 0);
+
+  transition: 0.3s;
+}
+
+.painel button:hover {
+  background-color: #0ae928;
+  box-shadow: 1px 0 20px rgba(200, 200, 120, 0.9);
+}
+
+.painel button {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.painel button::after {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+
+  border-top: 10px solid #333;
+  border-left: 10px;
+  border-right: 10px solid transparent;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+
+  transition: 0.3s;
+}
+
+.painel button:hover::after {
+  border-top-color: #393939;
 }

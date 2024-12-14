@@ -60,6 +60,13 @@ p{
     float: right;
     margin: 0 0 10px 10px;
 }
+
+
+@font-face{
+    font-family: "myfirtsFont";
+    src: url("minhafonte.ttf");
+}
+
     
    
     
