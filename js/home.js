@@ -7,18 +7,6 @@ $('.mais-vendidos').toggleClass('painel-aberto');
 }); */
 
 
-/* $('.painel button').click(function() {
+ $('.painel button').click(function() {
 $(this).parent().toggleClass('painel-aberto');
-}); */
-
-
-
-/* $('.painel button').click(function() {
-$(this).parent().toggleClass('')
-} ???????????? */
-
-
-
-$('.painel button'). click(function(){
-$('.painel button:hover').toggleClass('painel button:after')
-});
+}); 

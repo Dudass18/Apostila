@@ -388,17 +388,15 @@ tr:nth-child(2n) {
 } */
 
 
-MAIS TRABALHOSO, MAS MAIS BONITO
-
 .painel button {
   float: right;
-  margin-right: 300px;
+  margin-right: 10px;
   padding: 10px;
 
-  background-color: #d11b1b;
+  background-color: #333;
   border: 0;
   border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.5);
+  box-shadow: 1px 1px 3px rgba(30, 30, 30, 0.5);
   color: rgb(255, 255, 255);
   font-size: 1em;
   text-decoration: none;
@@ -407,8 +405,8 @@ MAIS TRABALHOSO, MAS MAIS BONITO
   transition: 0.3s;
 }
 
-.painel button:hover {
-  background-color: #0ae928;
+.painel button:hover { 
+  background-color:#393939;
   box-shadow: 1px 0 20px rgba(200, 200, 120, 0.9);
 }
 
@@ -424,7 +422,7 @@ MAIS TRABALHOSO, MAS MAIS BONITO
   width: 0;
 
   border-top: 10px solid #333;
-  border-left: 10px;
+  border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 
   position: absolute;
